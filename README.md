@@ -14,6 +14,7 @@ Identical Tensorflow Implemenation is on the [taeoh-kim's Github](https://github
 - Numpy 1.13.1
 - lmdb (pip install lmdb): for LSUN Dataset
 
+
 ## 2. Networks and Parameters
 
 ### 2.1 Hyper-Parameters
@@ -32,6 +33,7 @@ Identical Tensorflow Implemenation is on the [taeoh-kim's Github](https://github
 ### 2.3 Discriminator Networks (network.py)
 
 <p align="center"><img width="100%" src="images/DCGAN_Discriminator.PNG" /></p>
+
 
 ## 3. Run (Train)
 
