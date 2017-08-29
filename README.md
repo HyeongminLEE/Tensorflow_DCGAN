@@ -66,7 +66,7 @@ python train.py --filelist <filelist_name> --out_dir <output_directory>
 
 ## 4. Results
 
-DCGAN with CelebA (5 Epochs)
+DCGAN with CelebA (6 Epochs)
 
 <p align="center"><img width="70%" src="results/CelebA.png" /></p>
 
