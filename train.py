@@ -3,7 +3,7 @@ import argparse
 import tensorflow as tf
 import numpy as np
 import dbread_v1 as db
-from dcgan import DCGAN
+from model import DCGAN
 import scipy.misc
 
 parser = argparse.ArgumentParser(description='Easy Implementation of DCGAN')
