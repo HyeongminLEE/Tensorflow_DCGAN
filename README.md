@@ -39,7 +39,7 @@ You can modify hyper-parameter. Look at the parsing part of the code.
 
 ### 3. 1 CelebA DB (Cropped Face, 156253 Samples)
 
-- Database Setting: [link]()
+- Database Setting: [link](https://github.com/HyeongminLEE/Tensorflow_DCGAN/tree/master/db/celebA)
 
 - Train & Test
 
@@ -51,7 +51,7 @@ python train.py --filelist <filelist_name> --out_dir <output_directory>
 
 ### 3. 2 LSUN-Bedroom DB (3033042 Samples)
 
-- Database Setting: [link]()
+- Database Setting: [link](https://github.com/HyeongminLEE/Tensorflow_DCGAN/tree/master/db/lsun)
 
 - Train & Test
 
