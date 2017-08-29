@@ -2,7 +2,7 @@ import os
 import argparse
 import tensorflow as tf
 import numpy as np
-import dbread_v1 as db
+import dbread as db
 from model import DCGAN
 import scipy.misc
 
