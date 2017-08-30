@@ -4,7 +4,7 @@ Basic Implementation (Study friendly) of DCGAN in Tensorflow
 
 More Information: [Original Paper](https://arxiv.org/abs/1511.06434)
 
-Identical Tensorflow Implemenation is on the [taeoh-kim's Github](https://github.com/taeoh-kim/Pytorch_DCGAN)
+Identical Pythorch Implemenation is on the [taeoh-kim's Github](https://github.com/taeoh-kim/Pytorch_DCGAN)
 
 ## 1. Environments
 
