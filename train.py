@@ -12,6 +12,7 @@ parser = argparse.ArgumentParser(description='Easy Implementation of DCGAN')
 parser.add_argument('--filelist', type=str, default='filelist.txt')
 parser.add_argument('--out_dir', type=str, default='./output')
 parser.add_argument('--epochs', type=int, default=10)
+parser.add_argument('--batch_size', type=int, default=32)
 
 
 # Function for save the generated result
@@ -37,7 +38,7 @@ def main():
         os.makedirs(output_dir)
 
     total_epoch = args.epochs
-    batch_size = 32
+    batch_size = args.batch_size
     n_noise = 100
 
     database = db.DBreader(filelist_dir, batch_size, resize=[64, 64, 3], labeled=False)
