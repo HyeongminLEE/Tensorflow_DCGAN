@@ -8,10 +8,10 @@ import scipy.misc
 
 parser = argparse.ArgumentParser(description='Easy Implementation of DCGAN')
 
-# filelist directory
+# parameters
 parser.add_argument('--filelist', type=str, default='filelist.txt')
-# output directory
 parser.add_argument('--out_dir', type=str, default='./output')
+parser.add_argument('--epochs', type=int, default=10)
 
 
 # Function for save the generated result
@@ -36,7 +36,7 @@ def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    total_epoch = 30
+    total_epoch = args.epochs
     batch_size = 32
     n_noise = 100
 
