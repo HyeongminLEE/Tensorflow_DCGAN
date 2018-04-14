@@ -23,8 +23,8 @@ def convert(db_path):
         cursor = txn.cursor()
         for key, val in cursor:
             print('[', str(idx).zfill(7), '] ', 'Current key:', key)
-            if idx < 607315:
-                continue
+            if idx > 607315:
+                break
             img = cv2.imdecode(numpy.fromstring(val, dtype=numpy.uint8), 1)
             filedir = './data/Img_' + str(idx).zfill(7) + '.png'
             cv2.imwrite(filedir, img)
