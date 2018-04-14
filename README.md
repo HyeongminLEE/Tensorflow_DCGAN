@@ -16,7 +16,7 @@ Identical Pythorch Implemenation is on the [taeoh-kim's Github](https://github.c
 
 - Windows 10
 - Python 3.5.3 (Anaconda)
-- Tensorflow 1.0.0
+- Tensorflow 1.4.0
 - Numpy 1.13.1
 - lmdb (pip install lmdb): for LSUN Dataset
 
