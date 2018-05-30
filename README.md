@@ -19,6 +19,7 @@ Identical Pythorch Implemenation is on the [taeoh-kim's Github](https://github.c
 - Tensorflow 1.4.0
 - Numpy 1.13.1
 - lmdb (pip install lmdb): for LSUN Dataset
+- cv2 (conda install -c conda-forge opencv): for LSUN Dataset
 
 
 ## 2. Networks and Parameters

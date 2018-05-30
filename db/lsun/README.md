@@ -1,4 +1,4 @@
-# CelebA DB (Cropped Face, 156253 Samples)
+# LSUN Database (Room images)
 
 - Data Download: [link](https://github.com/fyu/lsun)
 
