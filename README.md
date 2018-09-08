@@ -2,7 +2,8 @@
 
 Basic Implementation (Study friendly) of DCGAN in Tensorflow
 
-More Information: [Original Paper](https://arxiv.org/abs/1511.06434)
+Original Paper: [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)
+More Information(in Korean): [Hyeongmin Lee's Blog](https://hyeongminlee.github.io/post/gan003_dcgan/)
 
 Identical Pythorch Implemenation is on the [taeoh-kim's Github](https://github.com/taeoh-kim/Pytorch_DCGAN)
 
